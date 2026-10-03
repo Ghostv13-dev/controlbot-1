@@ -1,0 +1,15 @@
+name = "controlbot"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
+
+[vars]
+OWNER_ID = "7839994504"             # your numeric Telegram ID
+ADMIN_CHAT_ID = "-1004469027877"   # private admin group ID (the bot must be a member)
+
+[[d1_databases]]
+binding = "DB"
+database_name = "controller_bot_db"
+database_id = "6abe2361-3460-4f9b-b93e-d0c62039cb62"
+
+[triggers]
+crons = ["* * * * *"]
